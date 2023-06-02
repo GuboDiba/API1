@@ -16,6 +16,8 @@ const displayProducts=async()=>{
         let button=document.createElement('button');
 
         image.src=x.thumbnail;
+        image.className = 'imgs'
+        title.className = 'h2'
         title.innerHTML=x.title;
         rating.innerHTML=x.rating;
         price.innerHTML=x.price;
